@@ -38,6 +38,7 @@ last_modified_at: 2022-01-22
     ```
 
 ### 주요 메서드
+
 |Method                     |Return Type            |Description                |
 |---------------------------|-----------------------|---------------------------|
 |put(K key, V value)        |V                      |주어진 키와 값을 추가, 저장이 되면 값을 리턴 |
@@ -51,7 +52,8 @@ last_modified_at: 2022-01-22
 |values()                   |Collection\<V\>        |저장된 모든 값을 Collection에 담아서 리턴|
 |clear()                    |void                   |모든 Map.Entry를 삭제함          |
 |remove(Object key)         |V                      |주어진 키와 일치하는 Map.Entry 삭제, 삭제가 되면 값을 리턴|
-  
+
+
 ### HashMap에 저장된 데이터를 연속적으로 처리하는 방법
   1. entrySet()
   
@@ -100,6 +102,7 @@ last_modified_at: 2022-01-22
   - DB의 연결 정보를 저장하는 용도로 많이 사용
 
 ### 주요 메서드
+
 |Method                     |Return Type            |Description                |
 |---------------------------|-----------------------|---------------------------|
 |setProperties(Key key, Value value)         |void                   |Properties에 데이터를 저장하는 기능   |
