@@ -65,10 +65,7 @@ last_modified_at: 2022-01-22
 ### 예외 확인
 
 - [Java API Document](https://docs.oracle.com/javase/8/docs/api/)
-    
-    [java.io.BufferedReader 클래스 항목](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html)
-    *java.io.BufferedReader 클래스 항목*
-    
+    [java.io.BufferedReader 클래스 항목](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html)    
     - 원하는 클래스의 생성자 또는 메소드 명을 검색하여 해당 메소드가 발생시킬 수 있는 Exception을 확인 가능
         ![image](https://user-images.githubusercontent.com/92344242/150640447-e33b3692-0c90-4ad3-8cb0-63f09c7d4fd0.png)        
         *java.io.BufferedReader의 readLine() 메소드*
