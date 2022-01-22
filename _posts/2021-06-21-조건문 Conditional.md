@@ -10,9 +10,8 @@ tags:
 date: 2021-06-21
 last_modified_at: 2022-01-22
 ---
-# 조건문 Conditional
 
----
+# 조건문 Conditional
 
 ### 조건문의 정의
 
