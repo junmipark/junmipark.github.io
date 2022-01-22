@@ -103,18 +103,18 @@ last_modified_at: 2022-01-22
 
 ### 주요 메서드
 
-|Method                     |Return Type            |Description                |
-|---------------------------|-----------------------|---------------------------|
-|setProperties(Key key, Value value)         |void                   |Properties에 데이터를 저장하는 기능   |
-|containsKey(Object key)                     |boolean                |매개변수로 전달되는 key값을 포함하고 있는지 확인|
-|containsValue(Object value)                 |boolean                |매개변수로 전달되는 value값을 포함하고 있는지 확인|
-|entrySet()                                  |Set                    |properties에 저장된 데이터를 Set 컬렉션으로 저장하여 반환|
-|get(Object key)                             |Object                 |매개변수로 전달하는 key값을 반환, 만약 없다면 null 반환|
-|getProperty(String key)                     |String                 |매개변수로 전달하는 key값을 반환, 만약 없다면 null 반환|
-|store(OutputStream os, String comment)      |void                   |Properties에 저장된 데이터를 외부의 파일로 옮기기 위한 메서드|
-|storeToXml(OutputStream os, String comment) |void                   |Properties에 저장된 데이터를 외부의 XML로 옮기기 위한 메서드|
-|load(InputStream is)                        |void                   |외부 파일로부터 데이터를 입력 받을 수 있는 메서드|
-|loadFromXml(InputStream is)                 |void                   |외부 XML 파일로부터 데이터를 입력받을 수 있는 메서드|
+|Return Type            |Method                                     |Description                |
+|-----------------------|-------------------------------------------|---------------------------|
+|void                   |setProperties(Key key, Value value)        |Properties에 데이터를 저장하는 기능   |
+|boolean                |containsKey(Object key)                    |매개변수로 전달되는 key값을 포함하고 있는지 확인|
+|boolean                |containsValue(Object value)                |매개변수로 전달되는 value값을 포함하고 있는지 확인|
+|Set                    |entrySet()                                 |properties에 저장된 데이터를 Set 컬렉션으로 저장하여 반환|
+|Object                 |get(Object key)                            |매개변수로 전달하는 key값을 반환, 만약 없다면 null 반환|
+|String                 |getProperty(String key)                    |매개변수로 전달하는 key값을 반환, 만약 없다면 null 반환|
+|void                   |store(OutputStream os, String comment)     |Properties에 저장된 데이터를 외부의 파일로 옮기기 위한 메서드|
+|void                   |storeToXml(OutputStream os, String comment)|Properties에 저장된 데이터를 외부의 XML로 옮기기 위한 메서드|
+|void                   |load(InputStream is)                       |외부 파일로부터 데이터를 입력 받을 수 있는 메서드|
+|void                   |loadFromXml(InputStream is)                |외부 XML 파일로부터 데이터를 입력받을 수 있는 메서드|
 
 ### 예제
 ```
