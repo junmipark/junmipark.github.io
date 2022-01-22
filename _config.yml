@@ -27,9 +27,6 @@ mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.
 # Google Analytics
 google-analytics: # Add your identifier. For example UA-99631805-1
 
-# Google Font
-goole_fonts: "Nanum+Gothic:400,700"
-
 # Comment Section (Disqus)
 disqus-identifier: junmipark-github-io # Add your shortname for Disqus Comment. For example mr-brown
 
