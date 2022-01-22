@@ -59,18 +59,18 @@ last_modified_at: 2022-01-22
   
       key-value 쌍으로 연결된 값들을 Entry로 묶어서 Set 형태로 반환하는 메서드
       ```java
-        HashMap map = new HashMap();
-        map.put("user1", "123");
-        map.put("user2", "123");
-        map.put("user3", "123");
+      HashMap map = new HashMap();
+      map.put("user1", "123");
+      map.put("user2", "123");
+      map.put("user3", "123");
   
-        Set set = map.entrySet(); // entrySet()은 맵에 저장된 Key,Value 값을 Entry로 다뤄서 Set으로 반환
-        Iterator it = set.iterator(); // set에 저장된 내부데이터에 접근하기 위해서 Iterator 생성
+      Set set = map.entrySet(); // entrySet()은 맵에 저장된 Key,Value 값을 Entry로 다뤄서 Set으로 반환
+      Iterator it = set.iterator(); // set에 저장된 내부데이터에 접근하기 위해서 Iterator 생성
         
-        while (it.hasNext()) {
-          Map.Entry me = (Map.Entry) it.next(); // Set에 저장된 데이터 타입이 Map.Entry이기 때문에 iterator을 통해서 Map.Entry에 데이터를 다시 담는다
-          System.out.println(entry.getKey() + "=" + entry.getValue());
-        }
+      while (it.hasNext()) {
+        Map.Entry me = (Map.Entry) it.next(); // Set에 저장된 데이터 타입이 Map.Entry이기 때문에 iterator을 통해서 Map.Entry에 데이터를 다시 담는다
+        System.out.println(entry.getKey() + "=" + entry.getValue());
+      }
       ```
   
   2. keySet()
