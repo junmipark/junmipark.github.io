@@ -1,5 +1,6 @@
 ---
 title:  "[자바 기초] 컬렉션 Collection - 2"
+image: java.png
 excerpt: ""
 
 categories:
