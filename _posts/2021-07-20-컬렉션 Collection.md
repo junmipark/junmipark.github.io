@@ -26,16 +26,18 @@ last_modified_at: 2022-01-22
 - Properties
 - TreeMap
 
+---
+
 ## HashMap
 
-#### 정의
+### 정의
   - Map 인터페이스를 구현한 클래스로 해싱Hashing 을 이용하여 많은 양의 데이터를 검색하는데 있어서 뛰어난 성능을 지님
     ```
       Map map = new HashMap(); // Map 인터페이스 다형성을 이용한 생성
       HashMap hMap = new HashMap(); // 직접 생성
     ```
 
-#### 주요 메서드
+### 주요 메서드
 
 |Method                     |Return Type            |Description|
 |---------------------------|-----------------------|-----------|
@@ -51,7 +53,7 @@ last_modified_at: 2022-01-22
 |clear()                    |void                   |모든 Map.Entry를 삭제함|
 |remove(Object key)         |V                      |주어진 키와 일치하는 Map.Entry 삭제, 삭제가 되면 값을 리턴|
   
-#### HashMap에 저장된 데이터를 연속적으로 처리하는 방법
+### HashMap에 저장된 데이터를 연속적으로 처리하는 방법
   1. entrySet()
   
       key-value 쌍으로 연결된 값들을 Entry로 묶어서 Set 형태로 반환하는 메서드
@@ -87,15 +89,18 @@ last_modified_at: 2022-01-22
           System.out.println(key + "=" + value);
         }
       ```
-  
+
+---
+
 ## 프로퍼티스 Properties
-#### 정의
+
+### 정의
   - Key, Value 값의 데이터 타입을 String으로 제한한 Map 컬렉션
   - .properties 확장자를 가진 데이터 파일을 다루는데 주로 사용
   - 문자열만 다루는 컬렉션으로 프로그램의 유지 보수를 편리하게 함
   - DB의 연결 정보를 저장하는 용도로 많이 사용
 
-#### 주요 메서드
+### 주요 메서드
 
 |Method                                      |Return Type |Description|
 |--------------------------------------------|------------|-----------|
@@ -110,7 +115,7 @@ last_modified_at: 2022-01-22
 |load(InputStream is)                        |void        |외부 파일로부터 데이터를 입력 받을 수 있는 메서드|
 |loadFromXml(InputStream is)                 |void        |외부 XML 파일로부터 데이터를 입력받을 수 있는 메서드|
 
-#### 예제
+### 예제
 ```
 public void test() {
   Properties prop = new Properties();
