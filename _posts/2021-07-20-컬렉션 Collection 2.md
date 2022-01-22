@@ -39,19 +39,19 @@ last_modified_at: 2022-01-22
 
 ### 주요 메서드
 
-|Method                     |Return Type            |Description                |
-|---------------------------|-----------------------|---------------------------|
-|put(K key, V value)        |V                      |주어진 키와 값을 추가, 저장이 되면 값을 리턴 |
-|containsKey(Object Key)    |boolean                |주어진 키가 있는지 확인하여 결과 리턴      |
-|containsValue(Object value)|boolean                |주어진 값이 있는지 확인하여 결과 리턴      |
-|entrySet()                 |Set\<Map.Entry\<K,V\>\>|키와 값의 쌍으로 구성된 모든 Map.Entry 객체를 set에 담아서 리턴|
-|get(Object key)            |V                      |주어진 키의 값을 리턴               |
-|isEmpty()                  |boolean                |컬렉션이 비어있는지 여부              |
-|keySet()                   |Set\<K\>               |모든 키를 Set 객체에 담아서 리턴       |
-|size()                     |int                    |저장된 키의 총 수를 리턴             |
-|values()                   |Collection\<V\>        |저장된 모든 값을 Collection에 담아서 리턴|
-|clear()                    |void                   |모든 Map.Entry를 삭제함          |
-|remove(Object key)         |V                      |주어진 키와 일치하는 Map.Entry 삭제, 삭제가 되면 값을 리턴|
+|Return Type            |Method                     |Description                |
+|-----------------------|---------------------------|---------------------------|
+|V                      |put(K key, V value)        |주어진 키와 값을 추가, 저장이 되면 값을 리턴 |
+|boolean                |containsKey(Object Key)    |주어진 키가 있는지 확인하여 결과 리턴      |
+|boolean                |containsValue(Object value)|주어진 값이 있는지 확인하여 결과 리턴      |
+|Set\<Map.Entry\<K,V\>\>|entrySet()                 |키와 값의 쌍으로 구성된 모든 Map.Entry 객체를 set에 담아서 리턴|
+|V                      |get(Object key)            |주어진 키의 값을 리턴               |
+|boolean                |isEmpty()                  |컬렉션이 비어있는지 여부              |
+|Set\<K\>               |keySet()                   |모든 키를 Set 객체에 담아서 리턴       |
+|int                    |size()                     |저장된 키의 총 수를 리턴             |
+|Collection\<V\>        |values()                   |저장된 모든 값을 Collection에 담아서 리턴|
+|void                   |clear()                    |모든 Map.Entry를 삭제함          |
+|V                      |remove(Object key)         |주어진 키와 일치하는 Map.Entry 삭제, 삭제가 되면 값을 리턴|
 
 
 ### HashMap에 저장된 데이터를 연속적으로 처리하는 방법
