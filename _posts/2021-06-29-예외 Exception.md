@@ -31,8 +31,9 @@ last_modified_at: 2022-01-22
 |패키지           |java.lang.Error                                  |java.lang.Exception|
 |예             |메모리 부족, 스텍 오버플로우 등                               |널 포인트 오류, 인덱스 범위 초과 등|
 
-- 참고
-    ![image](https://user-images.githubusercontent.com/92344242/150640415-d881ba68-4fc9-4793-bc77-45c5cc7a4702.png)    
+- 참고 
+
+![image](https://user-images.githubusercontent.com/92344242/150640415-d881ba68-4fc9-4793-bc77-45c5cc7a4702.png)    
     
 
 ## 예외 클래스
