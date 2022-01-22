@@ -1,5 +1,5 @@
 ---
-title:  "[자바 기초] 컬렉션 Collection (2)"
+title:  "[자바 기초] 컬렉션 Collection - 2"
 excerpt: ""
 
 categories:
