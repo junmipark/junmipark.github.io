@@ -22,18 +22,22 @@ last_modified_at: 2022-01-22
 
 ### 자바에서의 오류(에러), 예외 구분
 
-[ ](https://www.notion.so/b2d092ca5f2841b897dd55ecf3a81dac)
+|비교            |오류 Error                                         |예외 Exception|
+|--------------|-------------------------------------------------|------------|
+|문제 원인         |시스템 자원 부족으로 발생                                   |소스 코드로 인해 발생|
+|복구 가능 여부      |X                                                |O           |
+|처리 방법         |소스 코드 상에서 해결 불가능                                 |try, catch / throw 키워드 사용|
+|발생 결과         |비정상적인 프로그램 종료                                    |try-catch문 또는 throw를 통한 처리 결과 표시|
+|패키지           |java.lang.Error                                  |java.lang.Exception|
+|예             |메모리 부족, 스텍 오버플로우 등                               |널 포인트 오류, 인덱스 범위 초과 등|
 
 - 참고
-    
-    ![[Difference Between Error and Exception in Java](https://techdifferences.com/difference-between-error-and-exception.html)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/57775c05-7669-45b6-b355-70db46b720fe/Untitled.png)
-    
-    [Difference Between Error and Exception in Java](https://techdifferences.com/difference-between-error-and-exception.html)
+    ![image](https://user-images.githubusercontent.com/92344242/150640415-d881ba68-4fc9-4793-bc77-45c5cc7a4702.png)    
     
 
 ## 예외 클래스
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6ff017c-d1e1-4cc3-9345-cb1f3e29ea02/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d6ff017c-d1e1-4cc3-9345-cb1f3e29ea02/Untitled.png)
+![image](https://user-images.githubusercontent.com/92344242/150640427-d5d54398-c1b0-487d-b968-fe71a4f9d81d.png)
 
 ### **Exception 클래스** 분류
 
@@ -63,14 +67,11 @@ last_modified_at: 2022-01-22
 - [Java API Document](https://docs.oracle.com/javase/8/docs/api/)
     
     [java.io.BufferedReader 클래스 항목](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html)
-    
-    java.io.BufferedReader 클래스 항목
+    *java.io.BufferedReader 클래스 항목*
     
     - 원하는 클래스의 생성자 또는 메소드 명을 검색하여 해당 메소드가 발생시킬 수 있는 Exception을 확인 가능
-        
-        ![java.io.BufferedReader의 readLine() 메소드](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eb040bf7-742d-41d4-a80b-dd9083b678a2/Untitled.png)
-        
-        java.io.BufferedReader의 readLine() 메소드
+        ![image](https://user-images.githubusercontent.com/92344242/150640447-e33b3692-0c90-4ad3-8cb0-63f09c7d4fd0.png)        
+        *java.io.BufferedReader의 readLine() 메소드*
         
     - 해당 메소드를 사용하려면 반드시 뒤에 명시된 예외 클래스를 처리해야 함
 
