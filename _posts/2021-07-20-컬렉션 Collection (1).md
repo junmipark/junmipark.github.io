@@ -42,17 +42,18 @@ last_modified_at: 2022-01-23
 - Stack
 
 ### 주요 메서드
-|Method                     |Return Type            |Description|
-|---------------------------|-----------------------|-----------|
-|add(E e)                   |boolean                |주어진 객체를 맨 끝에 추가|
-|add(int index, E element)  |void                   |주어진 인덱스에 객체를 추가|
+|Method                     |Return Type            |Description                |
+|---------------------------|-----------------------|---------------------------|
+|add(E e)                   |boolean                |주어진 객체를 맨 끝에 추가            |
+|add(int index, E element)  |void                   |주어진 인덱스에 객체를 추가            |
 |set(int index, E element)  |void                   |주어진 인덱스에 저장된 객체를 주어진 객체로 변경|
-|contains(Object o)         |boolean                |주어진 객체가 존재하는지 여부 검색|
-|get(int index)             |E                      |주어진 인덱스에 저장된 객체 리턴|
-|isEmpty()                  |boolean                |컬렉션이 비어있는지 여부 확인|
-|size()                     |int                    |컬렉션에 저장된 전체 객체 수를 리턴|
-|remove(int index)          |E                      |주어진 인덱스에 저장된 객체 삭제|
-|clear()                    |void                   |컬렉션에 저장된 모든 요소 삭제|
-|remove(Object o)           |boolean                |주어진 객체를 삭제|
+|contains(Object o)         |boolean                |주어진 객체가 존재하는지 여부 검색        |
+|get(int index)             |E                      |주어진 인덱스에 저장된 객체 리턴         |
+|isEmpty()                  |boolean                |컬렉션이 비어있는지 여부 확인           |
+|size()                     |int                    |컬렉션에 저장된 전체 객체 수를 리턴       |
+|remove(int index)          |E                      |주어진 인덱스에 저장된 객체 삭제         |
+|clear()                    |void                   |컬렉션에 저장된 모든 요소 삭제          |
+|remove(Object o)           |boolean                |주어진 객체를 삭제                 |
+
 
 ---
