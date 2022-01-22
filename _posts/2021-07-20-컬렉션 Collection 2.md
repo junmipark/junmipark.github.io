@@ -76,19 +76,19 @@ last_modified_at: 2022-01-22
   2. keySet()
   
       ```java
-        HashMap map = new HashMap();
-        map.put("user1", "123");
-        map.put("user2", "123");
-        map.put("user3", "123");
+      HashMap map = new HashMap();
+      map.put("user1", "123");
+      map.put("user2", "123");
+      map.put("user3", "123");
 
-        Set keys = map.keySet();
-        Iterator it = keys.iterator();.
+      Set keys = map.keySet();
+      Iterator it = keys.iterator();.
 
-        while (it.hasNext()) {
-          String key = (String) it.next(); // next() 반환자가 object임
-          String value = (String) map.get(key); // get()도 반환자가 Object 여서 String으로 형변환
-          System.out.println(key + "=" + value);
-        }
+      while (it.hasNext()) {
+        String key = (String) it.next(); // next() 반환자가 object임
+        String value = (String) map.get(key); // get()도 반환자가 Object 여서 String으로 형변환
+        System.out.println(key + "=" + value);
+      }
       ```
 
 ---
