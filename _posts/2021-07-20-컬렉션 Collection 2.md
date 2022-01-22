@@ -58,7 +58,7 @@ last_modified_at: 2022-01-22
   1. entrySet()
   
       key-value 쌍으로 연결된 값들을 Entry로 묶어서 Set 형태로 반환하는 메서드
-      ```
+      ```java
         HashMap map = new HashMap();
         map.put("user1", "123");
         map.put("user2", "123");
@@ -75,7 +75,7 @@ last_modified_at: 2022-01-22
   
   2. keySet()
   
-      ```
+      ```java
         HashMap map = new HashMap();
         map.put("user1", "123");
         map.put("user2", "123");
@@ -117,7 +117,8 @@ last_modified_at: 2022-01-22
 |void                   |loadFromXml(InputStream is)                |외부 XML 파일로부터 데이터를 입력받을 수 있는 메서드|
 
 ### 예제
-```
+
+```java
 public void test() {
   Properties prop = new Properties();
 
