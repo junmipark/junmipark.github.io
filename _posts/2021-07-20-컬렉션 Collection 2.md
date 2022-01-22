@@ -5,7 +5,7 @@ excerpt: ""
 categories:
   - JAVA
 tags:
-  - [프로그래밍, Programming, 자바, JAVA, 컬렉션 Collection]
+  - [프로그래밍, Programming, 자바, JAVA, 컬렉션, Collection]
  
 date: 2021-07-20
 last_modified_at: 2022-01-22
