@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: category-page
 title: JAVA
 
 ---
