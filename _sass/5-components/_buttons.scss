@@ -16,13 +16,13 @@
   &--primary {
     color: $white-color;
     background-color: $primary-color;
-    background: linear-gradient(135deg, #33aaff 0%, #62d5ff 100%);
+    background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   }
 
   &--secondary {
     color: $white-color;
     background-color: $secondary-color;
-    background: linear-gradient(135deg, #ffe9e3 0%, #c4c1e0 100%);
+    background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   }
 
   &--round {
