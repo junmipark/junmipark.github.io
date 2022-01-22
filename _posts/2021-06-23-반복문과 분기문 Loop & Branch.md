@@ -240,10 +240,8 @@ public class ForWhile {
 ### 연습 문제
 
 - 문제
+![image](https://user-images.githubusercontent.com/92344242/150639185-2232a4c0-9414-4885-bb97-7403e781b3db.png)
     
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9cae0621-59f4-4825-8cd6-a4b3ba31c01a/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9cae0621-59f4-4825-8cd6-a4b3ba31c01a/Untitled.png)
-    
-
 ```java
 package com.silsub2.example;
 
