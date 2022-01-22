@@ -11,7 +11,7 @@ date: 2021-07-20
 last_modified_at: 2022-01-22
 ---
 
-# 컬렉션 Collection
+# 컬렉션 - 2
 
 ## 맵 Map
 
@@ -28,7 +28,7 @@ last_modified_at: 2022-01-22
 
 ---
 
-## HashMap
+## 해쉬맵 HashMap
 
 ### 정의
   - Map 인터페이스를 구현한 클래스로 해싱Hashing 을 이용하여 많은 양의 데이터를 검색하는데 있어서 뛰어난 성능을 지님
