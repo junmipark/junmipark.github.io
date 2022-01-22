@@ -1,5 +1,6 @@
 ---
 title:  "[자바 기초] 상속과 다형성 Inheritance & Polymorphism"
+image: java.png
 excerpt: ""
 
 categories:
