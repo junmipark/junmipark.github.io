@@ -1,5 +1,5 @@
 ---
-title:  "[자바 기초] 연산자 Operator"
+title:  "[자바 기초] 조건문 Conditional"
 excerpt: ""
 
 categories:
