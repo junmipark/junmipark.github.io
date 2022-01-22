@@ -26,7 +26,7 @@ last_modified_at: 2022-01-22
 - Properties
 - TreeMap
 
-### HashMap
+## HashMap
 
 #### 정의
   - Map 인터페이스를 구현한 클래스로 해싱Hashing 을 이용하여 많은 양의 데이터를 검색하는데 있어서 뛰어난 성능을 지님
