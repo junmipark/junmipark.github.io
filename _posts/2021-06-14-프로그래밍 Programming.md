@@ -68,6 +68,8 @@ last_modified_at: 2022-01-22
     - 경우에 따라 많은 리소스가 요구됨
     - JavaScript, ActionScript, Auto Hot Key, Perl, Python, Ruby, VBS
 
+---
+
 # 자바 Java
 
 ### 자바 소개
