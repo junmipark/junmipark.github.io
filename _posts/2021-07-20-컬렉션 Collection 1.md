@@ -11,7 +11,7 @@ date: 2021-07-20
 last_modified_at: 2022-01-23
 ---
 
-# 컬렉션 Collection
+# 컬렉션 - 1
 
 ## 자료 구조 Data Structure
 
