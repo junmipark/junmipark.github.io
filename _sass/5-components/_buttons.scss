@@ -6,7 +6,7 @@
   display: inline-block;
   white-space: nowrap;
   vertical-align: middle;
-  font-family: 'Volkhov', serif;
+  font-family: 'Noto Serif KR', serif;
   font-size: 12px;
   text-align: center;
   padding: 8px 15px;
@@ -22,7 +22,7 @@
   &--secondary {
     color: $white-color;
     background-color: $secondary-color;
-    background: linear-gradient(135deg, #a2a2bd 0%,#cfcfdd 100%);
+    background: linear-gradient(135deg, #ffcbcb 0%,#ffb5b5 100%);
   }
 
   &--round {
